@@ -1,0 +1,9 @@
+apiVersion: go-example.westridgesystems.com/v1alpha1
+kind: AppPackage
+metadata:
+  labels:
+    app.kubernetes.io/name: operator-x
+    app.kubernetes.io/managed-by: kustomize
+  name: apppackage-sample
+spec:
+  # TODO(user): Add fields here
