@@ -1,6 +1,14 @@
 # operator-x
 
+A basic example Kubernetes operator implemented in Go using Operator SDK.
+
 ## Getting Started
+
+To simply install the operator in your cluster, you can do:
+```sh
+kubectl apply -f https://raw.githubusercontent.com/wlfgang/operator-x/refs/tags/1.0.0/dist/install.yaml
+```
+If you want to modify anything, read on.
 
 ### Prerequisites
 - go version v1.22.0+
